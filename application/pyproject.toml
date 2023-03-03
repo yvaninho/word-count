@@ -1,0 +1,16 @@
+[tool.poetry]
+name="word-count"
+version = "0.1.0"
+description ="simple word count"
+authors = ["yvaninho]
+packages = [
+    {include = "src"}
+]
+[tool.poetry.dependencies]
+python = ">=3.8.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "7.1.2"
+
+[tool.poetry.scripts]
+wordcount = "src.app:main

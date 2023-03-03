@@ -1,0 +1,5 @@
+ category-encoders==2.1.0
+ flask_restx==0.3.0
+ requests-toolbelt==0.9.1
+ pytest==3.7
+

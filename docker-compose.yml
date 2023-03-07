@@ -1,9 +1,11 @@
-version: '3.7'
+version: '3.8'
 services:
   word-count:
     container_name: hymaia
     restart: always
     build: .
+    ports:
+      - 8080:8080
     networks:
       - db_network
       - web_network
@@ -12,7 +14,7 @@ services:
     restart: always
     image: "nginx:latest"
     ports:
-      - "8080:8080"
+      - 80:80
     volumes:
       - ./nginx:/etc/nginx/conf.d
     networks:

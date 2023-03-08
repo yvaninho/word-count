@@ -19,8 +19,9 @@ cloner le projet github
 sudo sh  run_docker.sh
 
 ##### axe d'amélioration 
-Dans se project nous n'avons pas embarqué un gestionnaire de dépendances. Utiliser un outil de 
+Dans ce project, nous n'avons pas embarqué un gestionnaire de dépendances. Utiliser un outil de 
 gestion de dépendances tel que "poetry" serait souhaitable.
+Enrichir les tests également serait une bonne amélioration.
 
 
 

@@ -9,12 +9,7 @@ WORKDIR $APP_HOME
 COPY . .
 
 RUN pip3 install -r requirements.txt
-  #flask==2.0.2\
-  #category-encoders==2.1.0 \
-  #gunicorn==20.1.0\
-  #werkzeug==2.0.3\
-  #flask_restx==0.5.1\
-  #pytest==3.7
+
 
 ENV FLASK_APP=run.py
 ENV YOURAPPLICATION_SETTINGS=config.py

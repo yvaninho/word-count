@@ -23,9 +23,3 @@ Dans ce project, nous n'avons pas embarqué un gestionnaire de dépendances. Uti
 gestion de dépendances tel que "poetry" serait souhaitable.
 Enrichir les tests également serait une bonne amélioration.
 
-
-
-
-
-
-

@@ -17,6 +17,7 @@ installer docker-compose
 cloner le projet github 
 ###### lancement de l'application 
 sudo sh  run_docker.sh
+puis vous connecter à http://0.0.0.0:8080
 
 ##### axe d'amélioration 
 Dans ce project, nous n'avons pas embarqué un gestionnaire de dépendances. Utiliser un outil de 
